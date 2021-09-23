@@ -1,0 +1,128 @@
+body {
+  box-sizing: border-box;
+  background-image: url(./background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-outer-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-inner-div {
+  color: white;
+  background: black;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: red;
+  font-size: 20px;
+  height: fit-content;
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+}
+
+.nav {
+  padding: 2px;
+}
+
+.top-inner-div-1 {
+  height: 100px;
+  width: 290px;
+  padding: 5px 10px 15px 10px;
+}
+
+.top-inner-div-2 {
+  width: 350px;
+  padding: 25px 25px 10px 25px;
+}
+
+.top-inner-div-3 {
+  padding: 0 30px 0 30px;
+}
+
+.middle-div {
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  margin: 60px;
+  font-size: large;
+  height: 700px;
+  border: 5px red dashed;
+  width: 400px;
+  text-align: center;
+  color: red;
+  opacity: 0.5;
+  font-weight: bold;
+  background: white;
+}
+
+.circle {
+  text-align: center;
+  background: green;
+  width: 25%;
+  height: 350px;
+  border-width: 10px;
+  border: solid black;
+  border-radius: 48%;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.circle-para {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.circle-divider {
+  margin: 0;
+}
+.lower-div-heading-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.lower-div-heading {
+  height: 50px;
+  border: 10px solid crimson;
+  background: black;
+  color: white;
+  border-radius: 28px;
+  width: 402px;
+  text-align: center;
+  font-style: italic;
+  font-size: bold;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0 40px 0;
+}
+
+.menu {
+  font-size: large;
+  height: content;
+  width: 270px;
+  text-align: center;
+  border: 5px solid;
+  border-color: green;
+  background-color: cyan;
+  border-radius: 20px;
+  color: rebeccapurple;
+}
